@@ -47,7 +47,7 @@ public class Fridge {
         newFridge = list.toArray(new Product[list.size()]);
       }
     } while (sum > FridgeLimit);
-
+    newFridge[55] = new Product("tests", 15, 13);
     System.out.println();
     System.out.println("Products in Fridge: "); // Prints the product list
     for (int i = 0; i < newFridge.length; i++) {
